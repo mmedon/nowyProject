@@ -6,6 +6,10 @@ public class Main {
     System.out.println("Podaj swoje imię: ");
     String name = scan.nextLine();
 
-    System.out.println("Hello " + name);
+    Scanner scan1 = new Scanner(System.in);
+    System.out.println("Podaj swoje nazwisko: ");
+    String lastName = scan1.nextLine();
+
+    System.out.println("Witaj " + name + " " + lastName);
     }
 }

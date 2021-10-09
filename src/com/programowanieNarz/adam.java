@@ -9,4 +9,11 @@ public class adam {
         System.out.println("Nazywam sie: " + name);
     }
 
+    public void przeczytaj()
+    {
+        System.out.println("Test test");
+    }
+
+
+
 }

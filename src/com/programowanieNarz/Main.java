@@ -11,5 +11,6 @@ public class Main {
     String lastName = scan1.nextLine();
 
     System.out.println("Witaj " + name + " " + lastName);
+	Osoba osoba = new Osoba("Paweł", "Makowski", 18);
     }
 }
